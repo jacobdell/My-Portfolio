@@ -6,6 +6,8 @@ import robot from '../assets/robot.png'
 import neuralnet from '../assets/neural_network.png'
 import mixLogo from '../assets/MIx.png';
 import { Link } from 'react-router-dom';
+import resumePDF from '../assets/resume.pdf';
+import weatherSlides from '../assets/weather_forecasting_slides.pdf';
 export default function Home() {
   return (
     <main className="container">
@@ -28,10 +30,10 @@ export default function Home() {
 
 
         <a
-          href="/My-Portfolio/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-button"
+          href={resumePDF}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-button"
         >
           View My Resume
         </a>
@@ -160,7 +162,7 @@ export default function Home() {
             </p>
             <div className="project-links">
                 <a
-                href="/weather_forecasting_slides.pdf"
+                href={weatherSlides}
                 target="_blank"
                 rel="noopener noreferrer"
                 >

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import fractions from '../assets/problems/Egyptian_Fractions.pdf'
+import arbitrage from '../assets/problems/Arbitrage_Detection.pdf'
 export default function FunProblems() {
   return (
     <main className="container">
@@ -15,7 +16,7 @@ export default function FunProblems() {
             <div className="project-links">
                 
                       <a
-            href="/problems/Egyptian_Fractions.pdf"
+            href={fractions}
             target="_blank"
             rel="noopener noreferrer"
             >
@@ -39,7 +40,7 @@ export default function FunProblems() {
             <div className="project-links">
                 
                       <a
-            href="/problems/Arbitrage_Detection.pdf"
+            href={arbitrage}
             target="_blank"
             rel="noopener noreferrer"
             >
