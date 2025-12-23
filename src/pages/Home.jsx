@@ -4,6 +4,7 @@ import lockheedLogo from '../assets/lockheed.jpeg';
 import weatherImg from '../assets/weather.png'
 import robot from '../assets/robot.png'
 import neuralnet from '../assets/neural_network.png'
+import signal from '../assets/signal.png'
 import mixLogo from '../assets/MIx.png';
 import { Link } from 'react-router-dom';
 
@@ -172,6 +173,22 @@ export default function Home() {
 </div>
 
 
+        <div className="project-card">
+        <img src={signal} alt="Signal Processing" className="project-image" />
+            <h4>Signal Processing Projects</h4>
+            <p className="muted">
+                Various Signal Processing Projects
+            </p>
+            <div className="project-links">
+                <a
+                href= 'https://github.com/jacobdell/Signal-Processing-Projects'
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                View on GitHub
+                </a>
+        </div>
+</div>
         </div>
       </section>
 
