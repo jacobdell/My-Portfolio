@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://jacobdell.github.io/my-portfolio",
+  "homepage": "https://jacobdell.github.io/My-Portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -35,6 +35,6 @@
     "vite": "^7.2.4"
   },
   "vite": {
-    "base": "/my-portfolio/"
+    "base": "/My-Portfolio/"
   }
 }
