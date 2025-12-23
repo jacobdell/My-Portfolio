@@ -7,7 +7,7 @@ import neuralnet from '../assets/neural_network.png'
 import mixLogo from '../assets/MIx.png';
 import { Link } from 'react-router-dom';
 
-import weatherSlides from '../assets/weather_forecasting_slides.pdf';
+
 export default function Home() {
   return (
     <main className="container">
@@ -30,7 +30,7 @@ export default function Home() {
 
 
         <a
-          href={`${import.meta.env.BASE_URL}resume.pdf`}
+          href = 'resume.pdf'
             target="_blank"
             rel="noopener noreferrer"
             className="contact-button"
@@ -162,7 +162,7 @@ export default function Home() {
             </p>
             <div className="project-links">
                 <a
-                href={weatherSlides}
+                href= 'weather_forecasting_slides.pdf'
                 target="_blank"
                 rel="noopener noreferrer"
                 >
