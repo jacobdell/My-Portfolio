@@ -28,7 +28,7 @@ export default function Home() {
 
 
         <a
-          href="/resume.pdf"
+          href="/My-Portfolio/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-button"
